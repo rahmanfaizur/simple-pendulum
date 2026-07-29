@@ -4,9 +4,12 @@ Simple Pendulum — numerical simulation and analytical comparison
 Author: Faizur Rahman
 Institute: BIT Sindri
 Department: Chemical Engineering
+Semester / Batch: 6th Semester | 2023–27
 Registration No.: 23030420034
 Email: faizurr464@gmail.com
 Instructor: Prof. Ch V Raghunath
+Course: Project Modelling and Simulation Lab
+GitHub: https://github.com/rahmanfaizur/simple-pendulum
 
 Physics
 -------
@@ -46,7 +49,7 @@ g = 9.81  # m/s^2
 L = 25.0  # m
 m = 40.0  # kg
 
-OUTPUT_DIR = Path(__file__).resolve().parent / "output"
+OUTPUT_DIR = Path(__file__).resolve().parent.parent / "figures"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 

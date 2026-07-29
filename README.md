@@ -3,11 +3,25 @@
 **Author:** Faizur Rahman  
 **Institute:** BIT Sindri  
 **Department:** Chemical Engineering  
+**Semester / Batch:** 6th Semester | 2023–27  
 **Registration No.:** 23030420034  
 **Email:** faizurr464@gmail.com  
-**Instructor:** Prof. Ch V Raghunath
+**Instructor:** Prof. Ch V Raghunath  
+**Course:** Project Modelling and Simulation Lab  
+**GitHub:** https://github.com/rahmanfaizur/simple-pendulum
 
 Numerical study of the simple pendulum: physics, small-angle analytical solution, Euler integration, and energy conservation.
+
+## Project layout
+
+```
+simplePend/
+├── code/                  # Python script + Jupyter notebook
+├── figures/               # Plots and pendulum diagrams
+├── report/                # Lab report (DOCX + PDF)
+├── requirements.txt
+└── README.md
+```
 
 ## Setup
 
@@ -20,18 +34,18 @@ pip install -r requirements.txt
 
 ## Run
 
-**Script (saves plots to `output/`):**
+**Script** (saves plots to `figures/`):
 
 ```bash
 source .venv/bin/activate
-python simple_pendulum.py
+python code/simple_pendulum.py
 ```
 
 **Notebook:**
 
 ```bash
 source .venv/bin/activate
-jupyter notebook simple_pendulum.ipynb
+jupyter notebook code/simple_pendulum.ipynb
 ```
 
 ## What this models
