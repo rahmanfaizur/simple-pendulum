@@ -4,12 +4,7 @@ Simple Pendulum — numerical simulation and analytical comparison
 Author: Faizur Rahman
 Institute: BIT Sindri
 Department: Chemical Engineering
-Semester / Batch: 6th Semester | 2023–27
 Registration No.: 23030420034
-Email: faizurr464@gmail.com
-Instructor: Prof. Ch V Raghunath
-Course: Project Modelling and Simulation Lab
-GitHub: https://github.com/rahmanfaizur/simple-pendulum
 
 Physics
 -------
